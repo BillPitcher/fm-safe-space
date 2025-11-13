@@ -1,0 +1,87 @@
+{
+  "authors" : [
+    {
+      "discord" : "bill_pitcher",
+      "email" : "bill@ilike.co.nz",
+      "name" : "Bill Pitcher",
+      "url" : "https://www.foundrymodules.com"
+    },
+    {
+      "discord" : "chrispitcher",
+      "name" : "Chris Pitcher",
+      "url" : "https://www.foundrymodules.com"
+    },
+    {
+      "name" : "FoundryModules.com",
+      "url" : "https://www.foundrymodules.com"
+    }
+  ],
+  "bugs" : "https://foundrymodules.com/modules/fm-safe-space/bugs.txt",
+  "changelog" : "https://foundrymodules.com/modules/fm-safe-space/changelog.txt",
+  "compatibility" : {
+    "maximum" : "13",
+    "minimum" : "13",
+    "verified" : "13"
+  },
+  "description" : "",
+  "download" : "https://foundrymodules.com/modules/fm-safe-space/fm-safe-space.zip",
+  "esmodules" : [
+    "scripts/fm-safe-space.mjs"
+  ],
+  "flags" : {
+    "MM" : "5.16"
+  },
+  "id" : "fm-safe-space",
+  "languages" : [
+    {
+      "lang" : "en",
+      "name" : "english",
+      "path" : "lang/en.json"
+    }
+  ],
+  "license" : "https://foundrymodules.com/license/index.html",
+  "manifest" : "https://foundrymodules.com/modules/fm-safe-space/module.json",
+  "media" : [
+    {
+      "caption" : "Foundry Modules for Foundry VTT",
+      "loop" : false,
+      "type" : "cover",
+      "url" : "https://www.foundrymodules.com/modules/modulecover.jpg"
+    },
+    {
+      "caption" : "Foundry Modules for Foundry VTT",
+      "loop" : false,
+      "type" : "icon",
+      "url" : "https://www.foundrymodules.com/modules/moduleicon.jpg"
+    },
+    {
+      "caption" : "Foundry Modules for Foundry VTT",
+      "loop" : false,
+      "thumbnail" : "modules/fm-safe-space/artwork/code_banner.webp",
+      "type" : "setup",
+      "url" : "modules/fm-safe-space/artwork/code_banner.webp"
+    }
+  ],
+  "readme" : "https://foundrymodules.com/modules/fm-safe-space/readme.txt",
+  "relationships" : {
+    "dependencies" : [
+      {
+        "id" : "dnd5e",
+        "type" : "system"
+      }
+    ],
+    "systems" : [
+      {
+        "compatibility" : {
+          "minimum" : "5.1.8",
+          "verified" : "5.1.8"
+        },
+        "id" : "dnd5e",
+        "type" : "system"
+      }
+    ]
+  },
+  "title" : "Safe Space",
+  "url" : "https://foundrymodules.com/",
+  "version" : "1.2.0"
+}
