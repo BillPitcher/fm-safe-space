@@ -1,0 +1,14 @@
+.fm-safe-space .message p {
+  font-size: 20pt;
+}
+.fm-safe-space .red-hand {
+  color: red;
+  font-size: 200px;
+}
+.fm-safe-space .action {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=fm-safe-space.css.map */

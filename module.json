@@ -81,7 +81,12 @@
       }
     ]
   },
+  "styles" : [
+    "styles/fm-fonts.css",
+    "styles/fm-safe-space.css"
+  ],
+  "socket" : true,
   "title" : "Safe Space",
   "url" : "https://foundrymodules.com/",
-  "version" : "1.2.0"
+  "version" : "1.4.0"
 }

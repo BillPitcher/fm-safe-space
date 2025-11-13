@@ -1,0 +1,13 @@
+<div class="fm-safe-space">
+    <p class="red-hand">
+        <i class="fa-solid fa-hand"></i>
+    </p>
+    <p class="message">{{pronouns}} {{userName}}</p>
+    <p class="message">requires assistance.</p>
+    {{#if isGm }}
+        <button class="action" data-action="doPause">Pause</button>
+        <button class="action" data-action="doMsg" >Message All</button>
+    {{/if }}
+</div>
+
+
