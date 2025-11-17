@@ -16,20 +16,20 @@
       "url" : "https://www.foundrymodules.com"
     }
   ],
-  "bugs" : "https://foundrymodules.com/modules/fm-safe-space/bugs.txt",
-  "changelog" : "https://foundrymodules.com/modules/fm-safe-space/changelog.txt",
+  "bugs" : "https://github.com/BillPitcher/fm-safe-space/issues",
+  "changelog" : "https://github.com/BillPitcher/fm-safe-space/changelog.txt",
   "compatibility" : {
     "maximum" : "13",
     "minimum" : "13",
     "verified" : "13"
   },
   "description" : "",
-  "download" : "https://foundrymodules.com/modules/fm-safe-space/fm-safe-space.zip",
+  "download" : "https://github.com/BillPitcher/fm-safe-space/archive/1.5.0.zip",
   "esmodules" : [
     "scripts/fm-safe-space.mjs"
   ],
   "flags" : {
-    "MM" : "5.16"
+    "MM" : "5.17"
   },
   "id" : "fm-safe-space",
   "languages" : [
@@ -40,7 +40,7 @@
     }
   ],
   "license" : "https://foundrymodules.com/license/index.html",
-  "manifest" : "https://foundrymodules.com/modules/fm-safe-space/module.json",
+  "manifest" : "https://github.com/BillPitcher/fm-safe-space/releases/latest/download/module.json",
   "media" : [
     {
       "caption" : "Foundry Modules for Foundry VTT",
@@ -62,7 +62,7 @@
       "url" : "modules/fm-safe-space/artwork/code_banner.webp"
     }
   ],
-  "readme" : "https://foundrymodules.com/modules/fm-safe-space/readme.txt",
+  "readme" : "https://github.com/BillPitcher/fm-safe-space/readme.txt",
   "relationships" : {
     "dependencies" : [
       {
@@ -73,20 +73,20 @@
     "systems" : [
       {
         "compatibility" : {
-          "minimum" : "5.1.8",
-          "verified" : "5.1.8"
+          "minimum" : "5.1.10",
+          "verified" : "5.1.10"
         },
         "id" : "dnd5e",
         "type" : "system"
       }
     ]
   },
+  "socket" : true,
   "styles" : [
     "styles/fm-fonts.css",
     "styles/fm-safe-space.css"
   ],
-  "socket" : true,
   "title" : "Safe Space",
-  "url" : "https://foundrymodules.com/",
-  "version" : "1.4.0"
+  "url" : "https://github.com/BillPitcher/",
+  "version" : "1.5.0"
 }
